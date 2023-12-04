@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="card" style="padding: 20px; margin:10px">
+    <div class="col-md-5">
+<h2>style binding</h2>
+<button [style.color]="incolor">Inline css</button>
+
+<!-- style binding by condition -->
+<button [style.color]="inlineColor ? 'green':'black'">Inline css</button>
+
+<button [style.fontWeight]="fontWeight ? 'bold':'normal'">Inline Style</button>
+</div>
+</div>
+<app-ref-variable></app-ref-variable>
+
+</div>

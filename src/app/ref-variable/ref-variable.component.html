@@ -1,0 +1,14 @@
+<div class="card" style="padding: 20px; margin:10px">
+<div class="col-md-5">
+    <h3>Template ref variable</h3>
+        <label>Email Id:</label>
+        <!-- <input type="text" class="form-control" name="email" #email (click)="getEmail(email)"> -->
+        <input type="text" class="form-control" name="email" #email><br>
+        <!-- <button class="btn btn-primary" (click)="getEmail(email)">send</button> -->
+        <button class="btn btn-primary" (click)="getEmail(email.value)">send</button>
+
+    <app-two-way-binding></app-two-way-binding>
+</div>
+</div>
+
+
